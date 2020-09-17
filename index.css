@@ -1,0 +1,88 @@
+/* CSS reset and style of for all tags*/
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('bodybuilder-646482_1920.jpg');
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* styling of left side i.e logo */
+.left {
+    display: inline-block;
+    position: absolute;
+}
+
+.left img {
+    margin-left: 5%;
+    padding-left: 4%;
+    width: 10%;
+    height: 10%;
+}
+
+.left div {
+    margin-left: 3%;
+    padding-left: 1%;
+    font-weight: bold;
+}
+
+/* navigation bar design placed at center */
+.center {
+    display: block;
+    width: 40%;
+    margin: 1% auto;
+}
+
+.navbar li {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 3%;
+}
+
+.navbar li a {
+    color: black;
+    font-size: 125%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    color: rgb(70, 69, 69);
+}
+
+.navbar li a.active {
+    text-decoration: underline;
+}
+
+/* section styling */
+section .container {
+    border: 2px solid rgb(122, 120, 120);
+    width: 35%;
+    margin: 8% 2%;
+    border-radius: 3%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-group {
+    text-align: center;
+    margin: 1%;
+}
+
+.design{
+    text-align: center;
+    border: 2px solid rgb(122, 120, 120);
+    border-radius: 5px;
+    padding: 1% 15% 1% 15%;
+    font-size: 105%;
+}
+.btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 2px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 155px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
